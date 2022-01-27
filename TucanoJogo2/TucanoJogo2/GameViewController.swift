@@ -1,8 +1,8 @@
 //
 //  GameViewController.swift
-//  TucanoJogo
+//  TucanoJogo2
 //
-//  Created by Felipe Leite on 24/01/22.
+//  Created by Felipe Leite on 27/01/22.
 //
 
 import UIKit

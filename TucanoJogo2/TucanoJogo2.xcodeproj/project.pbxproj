@@ -7,30 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AD24466279F4E0C0078B66C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD24465279F4E0C0078B66C /* AppDelegate.swift */; };
-		4AD24468279F4E0C0078B66C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4AD24467279F4E0C0078B66C /* GameScene.sks */; };
-		4AD2446A279F4E0C0078B66C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4AD24469279F4E0C0078B66C /* Actions.sks */; };
-		4AD2446C279F4E0C0078B66C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD2446B279F4E0C0078B66C /* GameScene.swift */; };
-		4AD2446E279F4E0C0078B66C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD2446D279F4E0C0078B66C /* GameViewController.swift */; };
-		4AD24471279F4E0C0078B66C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD2446F279F4E0C0078B66C /* Main.storyboard */; };
-		4AD24473279F4E0D0078B66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AD24472279F4E0D0078B66C /* Assets.xcassets */; };
-		4AD24476279F4E0D0078B66C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AD24474279F4E0D0078B66C /* LaunchScreen.storyboard */; };
+		4A94323F27A3328E0000EF96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94323E27A3328E0000EF96 /* AppDelegate.swift */; };
+		4A94324127A3328E0000EF96 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4A94324027A3328E0000EF96 /* GameScene.sks */; };
+		4A94324327A3328E0000EF96 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4A94324227A3328E0000EF96 /* Actions.sks */; };
+		4A94324527A3328E0000EF96 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94324427A3328E0000EF96 /* GameScene.swift */; };
+		4A94324727A3328E0000EF96 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94324627A3328E0000EF96 /* GameViewController.swift */; };
+		4A94324A27A3328E0000EF96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A94324827A3328E0000EF96 /* Main.storyboard */; };
+		4A94324C27A3328F0000EF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A94324B27A3328F0000EF96 /* Assets.xcassets */; };
+		4A94324F27A3328F0000EF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A94324D27A3328F0000EF96 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4AD24462279F4E0C0078B66C /* TucanoJogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TucanoJogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AD24465279F4E0C0078B66C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4AD24467279F4E0C0078B66C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		4AD24469279F4E0C0078B66C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		4AD2446B279F4E0C0078B66C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		4AD2446D279F4E0C0078B66C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		4AD24470279F4E0C0078B66C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4AD24472279F4E0D0078B66C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4AD24475279F4E0D0078B66C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A94323B27A3328E0000EF96 /* TucanoJogo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TucanoJogo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A94323E27A3328E0000EF96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A94324027A3328E0000EF96 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4A94324227A3328E0000EF96 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		4A94324427A3328E0000EF96 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4A94324627A3328E0000EF96 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4A94324927A3328E0000EF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A94324B27A3328F0000EF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A94324E27A3328F0000EF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4AD2445F279F4E0C0078B66C /* Frameworks */ = {
+		4A94323827A3328E0000EF96 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,73 +40,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4AD24459279F4E0C0078B66C = {
+		4A94323227A3328E0000EF96 = {
 			isa = PBXGroup;
 			children = (
-				4AD24464279F4E0C0078B66C /* TucanoJogo */,
-				4AD24463279F4E0C0078B66C /* Products */,
+				4A94323D27A3328E0000EF96 /* TucanoJogo2 */,
+				4A94323C27A3328E0000EF96 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4AD24463279F4E0C0078B66C /* Products */ = {
+		4A94323C27A3328E0000EF96 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AD24462279F4E0C0078B66C /* TucanoJogo.app */,
+				4A94323B27A3328E0000EF96 /* TucanoJogo2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AD24464279F4E0C0078B66C /* TucanoJogo */ = {
+		4A94323D27A3328E0000EF96 /* TucanoJogo2 */ = {
 			isa = PBXGroup;
 			children = (
-				4AD24465279F4E0C0078B66C /* AppDelegate.swift */,
-				4AD24467279F4E0C0078B66C /* GameScene.sks */,
-				4AD24469279F4E0C0078B66C /* Actions.sks */,
-				4AD2446B279F4E0C0078B66C /* GameScene.swift */,
-				4AD2446D279F4E0C0078B66C /* GameViewController.swift */,
-				4AD2446F279F4E0C0078B66C /* Main.storyboard */,
-				4AD24472279F4E0D0078B66C /* Assets.xcassets */,
-				4AD24474279F4E0D0078B66C /* LaunchScreen.storyboard */,
+				4A94323E27A3328E0000EF96 /* AppDelegate.swift */,
+				4A94324027A3328E0000EF96 /* GameScene.sks */,
+				4A94324227A3328E0000EF96 /* Actions.sks */,
+				4A94324427A3328E0000EF96 /* GameScene.swift */,
+				4A94324627A3328E0000EF96 /* GameViewController.swift */,
+				4A94324827A3328E0000EF96 /* Main.storyboard */,
+				4A94324B27A3328F0000EF96 /* Assets.xcassets */,
+				4A94324D27A3328F0000EF96 /* LaunchScreen.storyboard */,
 			);
-			path = TucanoJogo;
+			path = TucanoJogo2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AD24461279F4E0C0078B66C /* TucanoJogo */ = {
+		4A94323A27A3328E0000EF96 /* TucanoJogo2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AD24479279F4E0D0078B66C /* Build configuration list for PBXNativeTarget "TucanoJogo" */;
+			buildConfigurationList = 4A94325227A3328F0000EF96 /* Build configuration list for PBXNativeTarget "TucanoJogo2" */;
 			buildPhases = (
-				4AD2445E279F4E0C0078B66C /* Sources */,
-				4AD2445F279F4E0C0078B66C /* Frameworks */,
-				4AD24460279F4E0C0078B66C /* Resources */,
+				4A94323727A3328E0000EF96 /* Sources */,
+				4A94323827A3328E0000EF96 /* Frameworks */,
+				4A94323927A3328E0000EF96 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TucanoJogo;
-			productName = TucanoJogo;
-			productReference = 4AD24462279F4E0C0078B66C /* TucanoJogo.app */;
+			name = TucanoJogo2;
+			productName = TucanoJogo2;
+			productReference = 4A94323B27A3328E0000EF96 /* TucanoJogo2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4AD2445A279F4E0C0078B66C /* Project object */ = {
+		4A94323327A3328E0000EF96 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
-					4AD24461279F4E0C0078B66C = {
+					4A94323A27A3328E0000EF96 = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 4AD2445D279F4E0C0078B66C /* Build configuration list for PBXProject "TucanoJogo" */;
+			buildConfigurationList = 4A94323627A3328E0000EF96 /* Build configuration list for PBXProject "TucanoJogo2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,57 +114,57 @@
 				en,
 				Base,
 			);
-			mainGroup = 4AD24459279F4E0C0078B66C;
-			productRefGroup = 4AD24463279F4E0C0078B66C /* Products */;
+			mainGroup = 4A94323227A3328E0000EF96;
+			productRefGroup = 4A94323C27A3328E0000EF96 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AD24461279F4E0C0078B66C /* TucanoJogo */,
+				4A94323A27A3328E0000EF96 /* TucanoJogo2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4AD24460279F4E0C0078B66C /* Resources */ = {
+		4A94323927A3328E0000EF96 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD24471279F4E0C0078B66C /* Main.storyboard in Resources */,
-				4AD24468279F4E0C0078B66C /* GameScene.sks in Resources */,
-				4AD24473279F4E0D0078B66C /* Assets.xcassets in Resources */,
-				4AD24476279F4E0D0078B66C /* LaunchScreen.storyboard in Resources */,
-				4AD2446A279F4E0C0078B66C /* Actions.sks in Resources */,
+				4A94324A27A3328E0000EF96 /* Main.storyboard in Resources */,
+				4A94324127A3328E0000EF96 /* GameScene.sks in Resources */,
+				4A94324C27A3328F0000EF96 /* Assets.xcassets in Resources */,
+				4A94324F27A3328F0000EF96 /* LaunchScreen.storyboard in Resources */,
+				4A94324327A3328E0000EF96 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4AD2445E279F4E0C0078B66C /* Sources */ = {
+		4A94323727A3328E0000EF96 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD2446C279F4E0C0078B66C /* GameScene.swift in Sources */,
-				4AD2446E279F4E0C0078B66C /* GameViewController.swift in Sources */,
-				4AD24466279F4E0C0078B66C /* AppDelegate.swift in Sources */,
+				4A94324527A3328E0000EF96 /* GameScene.swift in Sources */,
+				4A94324727A3328E0000EF96 /* GameViewController.swift in Sources */,
+				4A94323F27A3328E0000EF96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		4AD2446F279F4E0C0078B66C /* Main.storyboard */ = {
+		4A94324827A3328E0000EF96 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4AD24470279F4E0C0078B66C /* Base */,
+				4A94324927A3328E0000EF96 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		4AD24474279F4E0D0078B66C /* LaunchScreen.storyboard */ = {
+		4A94324D27A3328F0000EF96 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4AD24475279F4E0D0078B66C /* Base */,
+				4A94324E27A3328F0000EF96 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -172,7 +172,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4AD24477279F4E0D0078B66C /* Debug */ = {
+		4A94325027A3328F0000EF96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -233,7 +233,7 @@
 			};
 			name = Debug;
 		};
-		4AD24478279F4E0D0078B66C /* Release */ = {
+		4A94325127A3328F0000EF96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -288,7 +288,7 @@
 			};
 			name = Release;
 		};
-		4AD2447A279F4E0D0078B66C /* Debug */ = {
+		4A94325327A3328F0000EF96 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -309,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = brdevFelipeL.TucanoJogo;
+				PRODUCT_BUNDLE_IDENTIFIER = brdevFelipeL.TucanoJogo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,7 +317,7 @@
 			};
 			name = Debug;
 		};
-		4AD2447B279F4E0D0078B66C /* Release */ = {
+		4A94325427A3328F0000EF96 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -338,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = brdevFelipeL.TucanoJogo;
+				PRODUCT_BUNDLE_IDENTIFIER = brdevFelipeL.TucanoJogo2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -349,25 +349,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AD2445D279F4E0C0078B66C /* Build configuration list for PBXProject "TucanoJogo" */ = {
+		4A94323627A3328E0000EF96 /* Build configuration list for PBXProject "TucanoJogo2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AD24477279F4E0D0078B66C /* Debug */,
-				4AD24478279F4E0D0078B66C /* Release */,
+				4A94325027A3328F0000EF96 /* Debug */,
+				4A94325127A3328F0000EF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AD24479279F4E0D0078B66C /* Build configuration list for PBXNativeTarget "TucanoJogo" */ = {
+		4A94325227A3328F0000EF96 /* Build configuration list for PBXNativeTarget "TucanoJogo2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AD2447A279F4E0D0078B66C /* Debug */,
-				4AD2447B279F4E0D0078B66C /* Release */,
+				4A94325327A3328F0000EF96 /* Debug */,
+				4A94325427A3328F0000EF96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4AD2445A279F4E0C0078B66C /* Project object */;
+	rootObject = 4A94323327A3328E0000EF96 /* Project object */;
 }
