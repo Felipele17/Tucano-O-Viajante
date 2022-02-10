@@ -9,7 +9,7 @@ import SpriteKit
 
 class GameScene: SKScene, SKPhysicsContactDelegate {
     
-    var dropList = [SKSpriteNode]()
+    var dropList = [SKNode]()
     var images = ["Águia","Banana","Cobra","Maça","Morango"]
     
     var isGameStarted = Bool(false)
@@ -21,12 +21,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var restartBtn = SKSpriteNode()
     var pauseBtn = SKSpriteNode()
     var obst = SKNode()
-    var moveAndRemove = SKAction()
     
     var zeca = SKSpriteNode()
     
     func createScene(){
         self.physicsBody = SKPhysicsBody(edgeLoopFrom: self.frame)
+        self.physicsBody?.categoryBitMask = CollisionBitMask.obstacleCategory
         self.physicsBody?.collisionBitMask = CollisionBitMask.birdCategory
         self.physicsBody?.contactTestBitMask = CollisionBitMask.birdCategory
         self.physicsBody?.isDynamic = false
@@ -62,8 +62,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             taptoplayLbl.removeFromParent()
             recursiveDrop()
             
-            
-            
             zeca.physicsBody?.velocity = CGVector(dx: 0, dy: 0)
             zeca.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 40))
         } else {
@@ -75,6 +73,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         for touch in touches{
             let location = touch.location(in: self)
             if isDied == true{
+                removeAllActions()
+                removeChildren(in: [createObstacles()])
                 if restartBtn.contains(location){
                     restartScene()
                 }
@@ -113,11 +113,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 }
             }
             if (isRight && isLeft){
-                
+                zeca.physicsBody?.velocity = CGVector(dx: 0, dy: 0)
+                zeca.physicsBody?.applyImpulse(CGVector(dx: 0, dy: 40))
             }
         }
         
     }
+    
     func didBegin(_ contact: SKPhysicsContact) {
         let firstBody = contact.bodyA
         let secondBody = contact.bodyB
@@ -144,22 +146,19 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             firstBody.node?.removeFromParent()
         }
     }
+    
     func createDrop(){
         var positionX = [100, 280]
         images.shuffle()
         positionX.shuffle()
         let drop = SKSpriteNode(imageNamed: images[0])
-        if images[0] == "Morango" {
-            drop.name = "Good Drop"
-        } else {
-            drop.name = "Bad Drop"
-        }
         drop.size = CGSize(width: 95, height: 120)
         drop.position = CGPoint(x: positionX[0], y: 820)
         drop.physicsBody = SKPhysicsBody(rectangleOf: CGSize(width: 50, height: 70))
         drop.physicsBody?.linearDamping = 1.1
         drop.physicsBody?.restitution = 0
         drop.physicsBody?.angularVelocity = 0
+        drop.physicsBody?.velocity = CGVector(dx: 0, dy: 0)
         
         drop.physicsBody?.allowsRotation = false
         drop.physicsBody?.affectedByGravity = true
@@ -177,10 +176,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         ])
         
         run(recursive, withKey: "aKey")
-    }
-    
-    func cancelActionDropBall() {
-        removeAction(forKey: "aKey")
     }
     
     func restartScene(){

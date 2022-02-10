@@ -15,6 +15,15 @@
 		4A94324C27A3328F0000EF96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A94324B27A3328F0000EF96 /* Assets.xcassets */; };
 		4A94324F27A3328F0000EF96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A94324D27A3328F0000EF96 /* LaunchScreen.storyboard */; };
 		4A94325627A9D4960000EF96 /* GameElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94325527A9D4960000EF96 /* GameElements.swift */; };
+		4A94325827ADC3F20000EF96 /* Stickers.xcstickers in Resources */ = {isa = PBXBuildFile; fileRef = 4A94325727ADC3F20000EF96 /* Stickers.xcstickers */; };
+		4A94325D27B19EFE0000EF96 /* AguiaNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94325C27B19EFE0000EF96 /* AguiaNode.swift */; };
+		4A94325F27B19F220000EF96 /* ZecaNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94325E27B19F220000EF96 /* ZecaNode.swift */; };
+		4A94326227B1A65A0000EF96 /* CobraNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94326127B1A65A0000EF96 /* CobraNode.swift */; };
+		4A94326427B1A6650000EF96 /* MacaNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94326327B1A6650000EF96 /* MacaNode.swift */; };
+		4A94326627B1A66E0000EF96 /* MorangoNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94326527B1A66E0000EF96 /* MorangoNode.swift */; };
+		4A94326827B1A6790000EF96 /* BananaNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94326727B1A6790000EF96 /* BananaNode.swift */; };
+		4A94326A27B1A7D30000EF96 /* RestartBtnNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94326927B1A7D30000EF96 /* RestartBtnNode.swift */; };
+		4A94326C27B1A7FA0000EF96 /* PauseBtnNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A94326B27B1A7FA0000EF96 /* PauseBtnNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +36,15 @@
 		4A94324B27A3328F0000EF96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A94324E27A3328F0000EF96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A94325527A9D4960000EF96 /* GameElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameElements.swift; sourceTree = "<group>"; };
+		4A94325727ADC3F20000EF96 /* Stickers.xcstickers */ = {isa = PBXFileReference; lastKnownFileType = folder.stickers; path = Stickers.xcstickers; sourceTree = "<group>"; };
+		4A94325C27B19EFE0000EF96 /* AguiaNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AguiaNode.swift; sourceTree = "<group>"; };
+		4A94325E27B19F220000EF96 /* ZecaNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZecaNode.swift; sourceTree = "<group>"; };
+		4A94326127B1A65A0000EF96 /* CobraNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CobraNode.swift; sourceTree = "<group>"; };
+		4A94326327B1A6650000EF96 /* MacaNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacaNode.swift; sourceTree = "<group>"; };
+		4A94326527B1A66E0000EF96 /* MorangoNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorangoNode.swift; sourceTree = "<group>"; };
+		4A94326727B1A6790000EF96 /* BananaNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BananaNode.swift; sourceTree = "<group>"; };
+		4A94326927B1A7D30000EF96 /* RestartBtnNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestartBtnNode.swift; sourceTree = "<group>"; };
+		4A94326B27B1A7FA0000EF96 /* PauseBtnNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseBtnNode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +78,48 @@
 			isa = PBXGroup;
 			children = (
 				4A94323E27A3328E0000EF96 /* AppDelegate.swift */,
+				4A94325B27B19EDF0000EF96 /* Nodes */,
+				4A94325A27B19ECD0000EF96 /* Game */,
+				4A94325927B19EAC0000EF96 /* Outros */,
+			);
+			path = TucanoJogo2;
+			sourceTree = "<group>";
+		};
+		4A94325927B19EAC0000EF96 /* Outros */ = {
+			isa = PBXGroup;
+			children = (
+				4A94324827A3328E0000EF96 /* Main.storyboard */,
+				4A94324B27A3328F0000EF96 /* Assets.xcassets */,
+				4A94325727ADC3F20000EF96 /* Stickers.xcstickers */,
+				4A94324D27A3328F0000EF96 /* LaunchScreen.storyboard */,
+			);
+			path = Outros;
+			sourceTree = "<group>";
+		};
+		4A94325A27B19ECD0000EF96 /* Game */ = {
+			isa = PBXGroup;
+			children = (
 				4A94324027A3328E0000EF96 /* GameScene.sks */,
 				4A94324427A3328E0000EF96 /* GameScene.swift */,
 				4A94325527A9D4960000EF96 /* GameElements.swift */,
 				4A94324627A3328E0000EF96 /* GameViewController.swift */,
-				4A94324827A3328E0000EF96 /* Main.storyboard */,
-				4A94324B27A3328F0000EF96 /* Assets.xcassets */,
-				4A94324D27A3328F0000EF96 /* LaunchScreen.storyboard */,
 			);
-			path = TucanoJogo2;
+			path = Game;
+			sourceTree = "<group>";
+		};
+		4A94325B27B19EDF0000EF96 /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				4A94325E27B19F220000EF96 /* ZecaNode.swift */,
+				4A94325C27B19EFE0000EF96 /* AguiaNode.swift */,
+				4A94326127B1A65A0000EF96 /* CobraNode.swift */,
+				4A94326327B1A6650000EF96 /* MacaNode.swift */,
+				4A94326527B1A66E0000EF96 /* MorangoNode.swift */,
+				4A94326727B1A6790000EF96 /* BananaNode.swift */,
+				4A94326927B1A7D30000EF96 /* RestartBtnNode.swift */,
+				4A94326B27B1A7FA0000EF96 /* PauseBtnNode.swift */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +183,7 @@
 				4A94324A27A3328E0000EF96 /* Main.storyboard in Resources */,
 				4A94324127A3328E0000EF96 /* GameScene.sks in Resources */,
 				4A94324C27A3328F0000EF96 /* Assets.xcassets in Resources */,
+				4A94325827ADC3F20000EF96 /* Stickers.xcstickers in Resources */,
 				4A94324F27A3328F0000EF96 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,8 +196,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A94325627A9D4960000EF96 /* GameElements.swift in Sources */,
+				4A94326427B1A6650000EF96 /* MacaNode.swift in Sources */,
+				4A94326227B1A65A0000EF96 /* CobraNode.swift in Sources */,
+				4A94326627B1A66E0000EF96 /* MorangoNode.swift in Sources */,
 				4A94324527A3328E0000EF96 /* GameScene.swift in Sources */,
 				4A94324727A3328E0000EF96 /* GameViewController.swift in Sources */,
+				4A94326827B1A6790000EF96 /* BananaNode.swift in Sources */,
+				4A94325D27B19EFE0000EF96 /* AguiaNode.swift in Sources */,
+				4A94326A27B1A7D30000EF96 /* RestartBtnNode.swift in Sources */,
+				4A94326C27B1A7FA0000EF96 /* PauseBtnNode.swift in Sources */,
+				4A94325F27B19F220000EF96 /* ZecaNode.swift in Sources */,
 				4A94323F27A3328E0000EF96 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

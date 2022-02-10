@@ -52,7 +52,7 @@ extension GameScene {
     }
     func createScoreLabel() -> SKLabelNode {
         let scoreLbl = SKLabelNode()
-        scoreLbl.position = CGPoint(x: 185, y: 720)
+        scoreLbl.position = CGPoint(x: 195, y: 720)
         scoreLbl.text = "Pontuação: \(score)"
         scoreLbl.zPosition = 5
         scoreLbl.fontSize = 20
@@ -70,6 +70,9 @@ extension GameScene {
         return taptoplayLbl
     }
     func createObstacles() -> SKNode  {
+        obst = SKNode()
+        obst.name = "obst"
+        
         let aguiaNode = SKSpriteNode(imageNamed: "Águia")
         aguiaNode.size = CGSize(width: 95, height: 120)
         aguiaNode.physicsBody?.categoryBitMask = CollisionBitMask.obstacleCategory
@@ -82,7 +85,7 @@ extension GameScene {
         
         aguiaNode.physicsBody?.allowsRotation = false
         aguiaNode.physicsBody?.affectedByGravity = true
-        aguiaNode.physicsBody?.isDynamic = true
+        aguiaNode.physicsBody?.isDynamic = false
         
         let cobraNode = SKSpriteNode(imageNamed: "Cobra")
         cobraNode.size = CGSize(width: 95, height: 120)
@@ -96,7 +99,7 @@ extension GameScene {
         
         cobraNode.physicsBody?.allowsRotation = false
         cobraNode.physicsBody?.affectedByGravity = true
-        cobraNode.physicsBody?.isDynamic = true
+        cobraNode.physicsBody?.isDynamic = false
         
         let bananaNode = SKSpriteNode(imageNamed: "Banana")
         bananaNode.size = CGSize(width: 95, height: 120)
@@ -110,7 +113,7 @@ extension GameScene {
         
         bananaNode.physicsBody?.allowsRotation = false
         bananaNode.physicsBody?.affectedByGravity = true
-        bananaNode.physicsBody?.isDynamic = true
+        bananaNode.physicsBody?.isDynamic = false
         
         let macaNode = SKSpriteNode(imageNamed: "Maça")
         macaNode.size = CGSize(width: 95, height: 120)
@@ -124,7 +127,7 @@ extension GameScene {
         
         macaNode.physicsBody?.allowsRotation = false
         macaNode.physicsBody?.affectedByGravity = true
-        macaNode.physicsBody?.isDynamic = true
+        macaNode.physicsBody?.isDynamic = false
         
         let morangoNode = SKSpriteNode(imageNamed: "Morango")
         morangoNode.size = CGSize(width: 45, height: 60)
@@ -138,7 +141,7 @@ extension GameScene {
         
         morangoNode.physicsBody?.allowsRotation = false
         morangoNode.physicsBody?.affectedByGravity = true
-        morangoNode.physicsBody?.isDynamic = true
+        morangoNode.physicsBody?.isDynamic = false
         
         obst.addChild(aguiaNode)
         obst.addChild(cobraNode)
@@ -146,7 +149,7 @@ extension GameScene {
         obst.addChild(macaNode)
         obst.addChild(morangoNode)
         
-        obst.run(moveAndRemove)
+        obst.zPosition = 1
         
         return obst
     }
